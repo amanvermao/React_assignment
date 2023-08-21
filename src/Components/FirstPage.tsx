@@ -3,8 +3,6 @@ import TextField from '@mui/material/TextField';
 import Button from '@mui/material/Button';
 import './first.css'
 
-
-
 const FirstPAge = () => {
   const [data, setData] = useState<{ name: string, phone: string, email: string }[]>([]);
   const [name, setName] = useState('');
@@ -20,7 +18,8 @@ const FirstPAge = () => {
     if (name === '' || email === '' || phone === '') {
       alert('Please fill in all fields.');
     } else {
-      window.location.href = '/secondpage';
+      window.location.href = 'https://secondpageforreactaast.netlify.app/';
+      
 
     }
     let deta = {
@@ -81,7 +80,7 @@ const FirstPAge = () => {
           />
 
           <br />
-         <Button type="submit" variant="contained" color="success">
+         <Button  type="submit" variant="contained" color="success">
         Submit
       </Button>
         </form>
