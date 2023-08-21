@@ -1,0 +1,8 @@
+.first_component{
+    width: 50vw;
+    height: 50vh;
+}
+.component{
+    display: flex;
+    gap: 3rem;
+}
